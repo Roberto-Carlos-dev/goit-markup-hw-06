@@ -1283,7 +1283,7 @@ button {
   position: relative;
 }
 
-.modal-inp {
+.modal-input {
   background-color: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   border: 1px solid rgba(46, 47, 66, 0.4);
@@ -1301,11 +1301,11 @@ button {
   left: 16px; 
   transform: translateY(-50%);
 } 
-.modal-inp:focus {
+.modal-input:focus {
   border: 1px solid #4d5ae5;
 }
 
-.modal-inp:focus + .modal-icon {
+.modal-input:focus + .modal-icon {
   fill: #4d5ae5;
 }
 
